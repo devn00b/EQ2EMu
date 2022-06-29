@@ -1,0 +1,33 @@
+--[[
+    Script Name    : Spells/Priest/Cleric/Inquisitor/ReformingSoul.lua
+    Script Author  : John Adams
+    Script Date    : 2013.08.11 06:08:42
+    Script Purpose : 
+                   : 
+--]]
+function cast(Caster, Target)
+    Resurrect(15, 15, 1)
+    Say(Caster, "casts 2 subspells")
+
+end
+
+
+-- Info from spell_display_effects (remove from script when done)
+-- Resurrects target with 15% health and power
+-- Applies Reforming Soul on termination.  Lasts for 1 minute.
+-- Increases Mitigation of target vs noxious and arcane damage by 220
+-- Heals target for 27.6% of max health
+-- Increases Mitigation of target vs elemental damage by 220
+-- Applies Revived Sickness on termination.  Lasts for 2 minutes.
+-- Decreases Toughness of target by 75.0
+-- Decreases Lethality of target by 75.0
+-- Decreases All Attributes of target by 20.0%
+-- If not between levels 1 - 6
+-- Decreases Attack Speed of target by 20.0
+-- If not between levels 1 - 6
+-- Decreases Attack Speed of target by 5.0
+-- If between levels 1 - 6
+-- Decreases All Attributes of target by 5.0%
+-- If between levels 1 - 6
+-- If outside an arena
+
